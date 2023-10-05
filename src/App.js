@@ -1,14 +1,16 @@
-import './App.css';
-import Title from './components/Ttle';
+import Navigation  from './Navigation/Nav';
+import Products from './Products/Products';
+import Recommended from './Recommended/Recommended';
 
 
 function App() {
   return (
-    <div>
-
-      <Title />
-    </div>
-  );
+    <>
+      <Navigation />
+      <Products />
+      <Recommended />
+    </>
+  )
 }
 
-export default App; 
+export default App;
