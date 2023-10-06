@@ -1,7 +1,6 @@
-import {FiHeart} from'react-icons/fi';
-import {AiOutlineShoppingCart, AiOutlineUserAdd} from 'react-icons/ai'; 
+import { FiHeart } from'react-icons/fi';
+import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai'; 
 
-import react from "react";
 import "./Nav.css"
 
 function Nav() {
@@ -16,14 +15,14 @@ function Nav() {
       </div>
 
       <div className="profile-container">
-        <a href="#">
+        <a href="/#">
             <FiHeart className="nav-icons" />
         </a>
 
-        <a href="#">
+        <a href="/#">
             <AiOutlineShoppingCart className="nav-icons" />
         </a>
-        <a href="#">
+        <a href="/#">
             <AiOutlineUserAdd className="nav-icons" />
         </a>
 
