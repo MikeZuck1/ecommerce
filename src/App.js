@@ -8,8 +8,8 @@ function App() {
     <>
       <Sidebar />
       <Navigation />
-      <Products />
       <Recommended />
+      <Products />
     </>
   )
 }
