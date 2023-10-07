@@ -12,4 +12,4 @@ function Price() {
     </div>
 }
 
-export default Price; 
+export default Price;

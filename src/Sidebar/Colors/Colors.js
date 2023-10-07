@@ -8,7 +8,7 @@ function Colors() {
       <Inputs />
       <Inputs />
       <Inputs />
-  </div>
+  </div> 
 }
 
 export default Colors; 
