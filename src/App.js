@@ -5,7 +5,7 @@ import Products from "./Products/Products";
 import products from "./db/data";
 import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
-import Card from "./components/Card";
+import Card from "./components/Cards";
 import "./index.css";
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
   };
 
   // ------------ Button Filtering -----------
-  const handleClick = (event) => {
-    setSelectedCategory(event.target.value);
+  const handleClick = (event) => { 
+    setSelectedCategory(event.target.value); 
   };
 
   function filteredData(products, selected, query) {
