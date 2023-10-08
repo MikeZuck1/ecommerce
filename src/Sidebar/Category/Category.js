@@ -14,10 +14,10 @@ function Category({handleChange}) {
 
         < Input 
           handleChange={handleChange}
-          value="sneakers"
+          value="sneakers" 
           title="Sneakers"
-          name="test"
-        />
+          name="test" 
+        /> 
         < Input 
           handleChange={handleChange}
           value="falts"
@@ -26,7 +26,7 @@ function Category({handleChange}) {
         />
         < Input 
           handleChange={handleChange}
-          value="sandals"
+          value="sandals" 
           title="Sandals"
           name="test"
         />
